@@ -1,0 +1,63 @@
+/* Application-wide Styles */
+*{
+  font-family: "Courier New", Courier, monospace;
+}
+.encabezado{
+  background: rgb(174,154,217);
+  background: linear-gradient(190deg, rgba(174,154,217,1) 13%, rgba(252,70,89,1) 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  gap: 50%;
+}
+h1 {
+  color: #369;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 250%;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia, serif;
+}
+button {
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+a:hover{
+  color: #333333;
+}
